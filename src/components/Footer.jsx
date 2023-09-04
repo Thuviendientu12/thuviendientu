@@ -97,7 +97,7 @@ const Footer = () => {
         <SocialContainer>
           <SocialIcon
           color="3B5999"
-          href="https://www.facebook.com/lytutrongvungtau"
+          href="https://www.facebook.com/profile.php?id=100083705094258"
           target="_blank">
             <Facebook />
           </SocialIcon>
@@ -116,16 +116,16 @@ const Footer = () => {
         <Title>Đường dẫn nhanh</Title>
         <List>
           <ListItem
-          href="https://thuvienlytutrong.netlify.app/"
+          href="https://nguyenbinhkhiem.netlify.app/"
           >Trang chủ mượn sách</ListItem>
           <ListItem
-          href="https://quanly-thuvienlytutrong.netlify.app/"
+          href="https://quanlynguyenbinhkhiem.netlify.app/"
           >Trang quản lý sách</ListItem>
           <ListItem
-          href="https://thuvienlytutrong.netlify.app/books/"
+          href="https://nguyenbinhkhiem.netlify.app/books/"
           >Danh sách đầu sách</ListItem>
           <ListItem
-          href="https://thuvienlytutrong.netlify.app/cart/"
+          href="https://nguyenbinhkhiem.netlify.app/cart/"
           >Tủ sách của bạn</ListItem>
           {/* <ListItem>Accessories</ListItem>
           <ListItem>My Account</ListItem>
@@ -138,14 +138,14 @@ const Footer = () => {
       <Right>
         <Title>Liên hệ</Title>
         <ContactItem>
-          <Room style={{marginRight:"10px"}}/> 242 Đường 2/9, Phường 8, TP. Vũng Tàu, BR-VT
+          <Room style={{marginRight:"10px"}}/> Khu dân cư Phước Sơn, Phường 11, TP. Vũng Tàu, BR-VT
         </ContactItem>
-        <ContactItem>
+        {/* <ContactItem>
           <Phone style={{marginRight:"10px"}}/> 0254 3515 779
         </ContactItem>
         <ContactItem>
           <MailOutline style={{marginRight:"10px"}} /> tieuhoclytutrong.p8.vt@gmail.com
-        </ContactItem>
+        </ContactItem> */}
         {/* <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" /> */}
       </Right>
     </Container>
